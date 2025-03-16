@@ -11,13 +11,15 @@
 <body>
     <header>
         <div class="container">
-            <h1>Ramyasree Lankalapalli</h1>
-            <p>Full Stack Developer</p>
+            <!-- Name and Role moved to the top of the page -->
+            
+            <!-- Navigation Bar -->
             <nav>
                 <div class="hamburger" id="hamburger">
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li> <!-- Added Home link -->
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -33,6 +35,14 @@
             </nav>
         </div>
     </header>
+
+    <!-- Home Section (Name and Role) -->
+    <section id="home" class="home">
+        <div class="container">
+            <h1>Ramyasree Lankalapalli</h1>
+            <p>Full Stack Developer</p>
+        </div>
+    </section>
 
     <section id="about" class="about">
         <div class="container">
@@ -137,7 +147,7 @@
         </div>
     </footer>
 
- <script>
+    <script>
         // Hamburger menu toggle for mobile
         const hamburger = document.getElementById('hamburger');
         const navLinks = document.getElementById('nav-links');
