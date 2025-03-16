@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramyasree Lankalapalli - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ramyasree Lankalapalli</h1>
+            <p>Full Stack Developer</p>
+            <nav>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="close-btn" id="close-btn">
+                        <i class="fas fa-times"></i>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I aim to enhance my technical and communication skills to become a proficient full-stack developer. By continuously exploring and mastering various technologies, practicing hands-on development, and refining problem-solving abilities, I strive to build scalable and efficient applications. Additionally, I seek to improve my ability to collaborate effectively, articulate ideas clearly, and stay updated with industry trends to contribute meaningfully to innovative projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;">8/10</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;">8/10</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;">7/10</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Calculator</h3>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                <p>Developed a fully functional calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The project focused on creating a user-friendly interface with responsive design, smooth interactions, and optimized JavaScript logic to ensure accurate calculations and an intuitive user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>SASI Institute of Technology & Engineering</h3>
+                <p>B. Tech (2023 - 2027)</p>
+                <p>CGPA: 9</p>
+            </div>
+            <div class="education-item">
+                <h3>SASI Junior College</h3>
+                <p>Intermediate (2021 - 2023)</p>
+                <p>Percentage: 95%</p>
+            </div>
+            <div class="education-item">
+                <h3>SASI English Medium School</h3>
+                <p>SSA (2021)</p>
+                <p>CGPA: 10</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Participated in 16 contests on CodeChef</li>
+                <li>Earned a gold badge on CodeChef for problem-solving</li>
+                <li>Solved 663 problems on CodeChef</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>500 difficulty rating on CodeChef</li>
+                <li>Workshop conducted by SITE</li>
+                <li>Learn Python Programming</li>
+                <li>Certification - CodeChef</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ramyasree.lankalapalli@sasi.ac.in">ramyasree.lankalapalli@sasi.ac.in</a></p>
+            <p>Phone: +1 868-862-2809</p>
+            <p>Location: Velivennu, East Godavari, Andhra Pradesh</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Ramyasree Lankalapalli. All rights reserved.</p>
+        </div>
+    </footer>
+
+ <script>
+        // Hamburger menu toggle for mobile
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        const closeBtn = document.getElementById('close-btn');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.add('active');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+    </script>
+</body>
+</html>
